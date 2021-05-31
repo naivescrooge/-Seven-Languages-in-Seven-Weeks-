@@ -149,34 +149,82 @@ greek_numbers={
 -- toht.take_hit(toht)
 -- print(toht.health)
 
-Villain={health=100}
+-- Villain={health=100}
 
-function Villain:new(name)
-    local obj={
-        name=name,
-        health=self.health
-    }
+-- function Villain:new(name)
+--     local obj={
+--         name=name,
+--         health=self.health
+--     }
 
-    setmetatable(obj,self)
-    self.__index=self
+--     setmetatable(obj,self)
+--     self.__index=self
 
-    return obj
+--     return obj
+-- end
+
+-- function Villain:take_hit()
+--     self.health=self.health-10
+-- end
+
+-- SuperVillain=Villain:new()
+
+-- function SuperVillain:take_hit()
+--     self.health=self.health-5
+-- end
+
+-- dietrich=Villain:new("Dietrich")
+-- dietrich:take_hit()
+-- print(dietrich.health)
+
+-- toht=SuperVillain:new("Toht")
+-- toht:take_hit()
+-- print(toht.health)
+
+function fibonacci()
+    local m=1
+    local n=1
+    
+    while true do
+        coroutine.yield(m)
+        m,n=n,m+n
+    end
 end
 
-function Villain:take_hit()
-    self.health=self.health-10
-end
+-- generator=coroutine.create(fibonacci)
+-- succeeded,value=coroutine.resume(generator)
+-- print(value)
+-- succeeded,value=coroutine.resume(generator)
+-- print(value)
+-- succeeded,value=coroutine.resume(generator)
+-- print(value)
+-- succeeded,value=coroutine.resume(generator)
+-- print(value)
+-- succeeded,value=coroutine.resume(generator)
+-- print(value)
+-- succeeded,value=coroutine.resume(generator)
+-- print(value)
 
-SuperVillain=Villain:new()
+-- scheduler=require 'scheduler'
 
-function SuperVillain:take_hit()
-    self.health=self.health-5
-end
+-- function punch()
+--     for i=1,5 do
+--         print('punch ' .. i)
+--         scheduler.wait(1.0)
+--     end
+-- end
 
-dietrich=Villain:new("Dietrich")
-dietrich:take_hit()
-print(dietrich.health)
+-- function block()
+--     for i=1,3 do
+--         print('block ' .. i)
+--         scheduler.wait(2.0)
+--     end
+-- end
 
-toht=SuperVillain:new("Toht")
-toht:take_hit()
-print(toht.health)
+-- scheduler.schedule(0.0,coroutine.create(punch))
+-- scheduler.schedule(0.0,coroutine.create(block))
+
+-- scheduler.run()
+
+
+-- Practice
