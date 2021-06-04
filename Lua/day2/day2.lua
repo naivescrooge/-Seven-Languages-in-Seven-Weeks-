@@ -228,3 +228,31 @@ end
 
 
 -- Practice
+
+-- function concatnate(a1,a2)
+--     tmp={}
+--     for i=1,#a1 do
+--         tmp[#tmp+1] = a1[i]
+--     end
+--     for i=1,#a2 do
+--         tmp[#tmp+1] = a2[i]
+--     end
+--     return tmp
+-- end
+
+-- function printarray(a)
+--     for i=1,#a do
+--         io.write(a[i])
+--         io.write(" ")
+--     end
+--     io.write("\n")  --输出到io
+-- end
+
+-- a1={1,1,4,5,1,4}
+-- a2={1,9,1,9,8,1,0}
+-- a3=concatnate(a1,a2)
+
+-- printarray(a1)
+-- printarray(a2)
+-- printarray(a3)
+
