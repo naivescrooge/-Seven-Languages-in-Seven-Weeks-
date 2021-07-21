@@ -10,7 +10,7 @@ body:
       value: |
         Thanks for taking the time to making your flag!
   - type: textarea
-    id: It is certain
+    id: It-is-certain
     attributes:
       label: What will happen?
       description: Also tell us, what will happen?
