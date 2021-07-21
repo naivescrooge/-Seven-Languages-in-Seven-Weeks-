@@ -1,5 +1,5 @@
 name: Making a flag
-description: I must!
+description: I must
 title: "[flag]: "
 labels: [flag]
 assignees:
@@ -18,3 +18,4 @@ body:
       value: "A flag"
     validations:
       required: true
+      
