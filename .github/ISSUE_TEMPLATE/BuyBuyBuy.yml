@@ -10,7 +10,7 @@ body:
       value: |
         Thanks for taking the time to share this good!
   - type: textarea
-    id: Yeah-that's-good
+    id: that-is-good
     attributes:
       label: What to buy?
       description: Also tell us, what did you want to recommend?
