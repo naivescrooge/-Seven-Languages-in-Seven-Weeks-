@@ -1,0 +1,3 @@
+C:/Users/windows/Desktop/zsy/-Seven-Languages-in-Seven-Weeks-/Lua/day3/CMakeFiles/play.dir
+C:/Users/windows/Desktop/zsy/-Seven-Languages-in-Seven-Weeks-/Lua/day3/CMakeFiles/ALL_BUILD.dir
+C:/Users/windows/Desktop/zsy/-Seven-Languages-in-Seven-Weeks-/Lua/day3/CMakeFiles/ZERO_CHECK.dir

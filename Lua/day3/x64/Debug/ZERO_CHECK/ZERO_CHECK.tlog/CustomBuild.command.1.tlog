@@ -1,0 +1,10 @@
+^C:\USERS\WINDOWS\DESKTOP\ZSY\-SEVEN-LANGUAGES-IN-SEVEN-WEEKS-\LUA\DAY3\CMAKEFILES\86B93E7F21D37A4065D1C03D43E2F072\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/windows/Desktop/zsy/-Seven-Languages-in-Seven-Weeks-/Lua/day3 -BC:/Users/windows/Desktop/zsy/-Seven-Languages-in-Seven-Weeks-/Lua/day3 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/windows/Desktop/zsy/-Seven-Languages-in-Seven-Weeks-/Lua/day3/play.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
