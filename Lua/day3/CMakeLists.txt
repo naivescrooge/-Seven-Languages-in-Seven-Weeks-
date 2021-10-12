@@ -1,4 +1,6 @@
 cmake_minimum_required (VERSION 3.6)
 project (play)
 add_executable (play play.cpp)
-target_link_libraries (play lua)
+target_link_libraries (play lua rtmidi)
+include_directories (C:/Users/windows/Downloads/Binaries-LuaDist-batteries-0.9.8-Windows-x86/include)
+include_directories (C:/Users/windows/Downloads/rtmidi-4.0.0/rtmidi-4.0.0)
