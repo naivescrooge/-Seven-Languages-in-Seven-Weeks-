@@ -85,7 +85,7 @@ end
 
 -- Practice
 function ends_in_3(num)
-    if num%10 == 3 then
+    if num % 10 == 3 then
         return true
     else
         return false
@@ -98,13 +98,13 @@ function is_prime(num)
     if num <= 1 then
         return false
     end
-    if num%2 == 0 and num ~=2 then
+    if num % 2 == 0 and num ~= 2 then
         return false
     elseif num == 2 then
         return true
     end
-    for i=3, math.sqrt(num), 2 do
-        if num%i == 0 then
+    for i = 3, math.sqrt(num), 2 do
+        if num % i == 0 then
             return false
         end
     end
