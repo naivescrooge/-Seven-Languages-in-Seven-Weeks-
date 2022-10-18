@@ -1,2 +1,4 @@
-﻿  play.cpp
-  play.vcxproj -> C:\Users\windows\Desktop\zsy\-Seven-Languages-in-Seven-Weeks-\Lua\day3\Debug\play.exe
+﻿  Building Custom Rule C:/Users/windows/Desktop/zsy/-Seven-Languages-in-Seven-Weeks-/Lua/day3/CMakeLists.txt
+  play.cpp
+LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  play.vcxproj -> C:\Users\windows\Desktop\3\-Seven-Languages-in-Seven-Weeks-\Lua\day3\Debug\play.exe
